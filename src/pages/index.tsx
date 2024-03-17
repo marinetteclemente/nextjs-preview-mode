@@ -249,6 +249,29 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
         </div>
       </div>
+      <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
+        This demonstrates a static website generated using{' '}
+        <a target="_blank" rel="noopener" href="https://nextjs.org">
+          Next.js'
+        </a>{' '}
+        new{' '}
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://nextjs.org/docs/basic-features/data-fetching/get-static-props"
+        >
+          Static Site Generation (SSG)
+        </a>
+        . View the source on{' '}
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/vercel/preview-mode-demo"
+        >
+          GitHub
+        </a>
+        .
+      </Malleable>
       <div className="explanation">
         <div className="p">
           <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
@@ -278,8 +301,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
         </div>
-          <div className="explanation">
-        <div className="p">
+        <div className="explanation">
+          <div className="p">
           <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
           What do you want to learn or do more of at work? <br />
           </Malleable>
@@ -321,7 +344,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             I will look for documentations or help file that could provide insights on the specific issue, or I would read through some forums or community resources. <br />
             I will also look for tutorials or guides related that could add to my knowledge. <br />
             Next step would be asking the customer to provide me more context of the issue like a detailed information about the specific build issue they are encountering.  <br />
-            I will ask them to provide any evidence of the issue which would help me replicate it. I would request for any error messages or log issues,  <br />
+            I will ask them to provide any evidence of the issue which would help me replicate it. I would request for any error messages or log issues, <br />
             if there were code recent code changes in their development environment, if there are dependencies in other configurations and any other third-party vendors.  <br />
             After getting the information by the customer, I would try to explore potential solutions with the issue.<br /> 
             This might involve troubleshooting common issues, experimenting with different configurations or even seeking assistance on any third-party vendors that would have greater knowledge.  <br />
