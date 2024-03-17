@@ -280,21 +280,21 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. 
+            From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. <br />
 
-            Five most favourite support tasks:
-            1. Write and maintain support articles and docs pages: Maintaining the support articles and docs pages is crucial for the customer support role as it promotes three important things, efficiency, sharing of knowledge, and continuous improvement. 
-            2. Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub: Improve my technical proficiency and problem-solving skills
-            3.  Help train and onboard new support teammates: It is a two-way kind of learning, not only the new onboarded teammates are benefitting but also the person who is doing the training as it enhances many skills 
-            4. Work with the product team to develop a new feature based on feedback from customers: Enhance skills such as collaboration, business requirement analysis, different project management methodologies
-            5. Analyze hundreds of support tickets to spot trends the product team can use: Enhance understanding in various customer support requests
+            Five most favourite support tasks:<br />
+            1. Write and maintain support articles and docs pages: Maintaining the support articles and docs pages is crucial for the customer support role as it promotes three important things, efficiency, sharing of knowledge, and continuous improvement.<br /> 
+            2. Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub: Improve my technical proficiency and problem-solving skills<br />
+            3.  Help train and onboard new support teammates: It is a two-way kind of learning, not only the new onboarded teammates are benefitting but also the person who is doing the training as it enhances many skills <br />
+            4. Work with the product team to develop a new feature based on feedback from customers: Enhance skills such as collaboration, business requirement analysis, different project management methodologies<br />
+            5. Analyze hundreds of support tickets to spot trends the product team can use: Enhance understanding in various customer support requests<br />
             
-            Five least favourite support tasks:
-            1. Manage a support team: Focus on increasing my knowledge in the technicalities 
-            2. Respond to 50+ support requests via email every day: Having to respond quickly could be overwhelming
-            3. Dig through logs to troubleshoot a customer's broken project: Can be time-consuming and challenging. Most of the time it requires high-level technical expertise
-            4. Work with 3rd party partners to track down a tricky situation for a joint customer: the lack of direct control over external parties
-            5. Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems: Can be challenging to balance the needs of different users 
+            Five least favourite support tasks: <br />
+            1. Manage a support team: Focus on increasing my knowledge in the technicalities <br />
+            2. Respond to 50+ support requests via email every day: Having to respond quickly could be overwhelming<br />
+            3. Dig through logs to troubleshoot a customer's broken project: Can be time-consuming and challenging. Most of the time it requires high-level technical expertise<br />
+            4. Work with 3rd party partners to track down a tricky situation for a joint customer: the lack of direct control over external parties<br />
+            5. Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems: Can be challenging to balance the needs of different users <br />
             
           </Malleable>
           <br />
