@@ -301,58 +301,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
         </div>
-        <div className="explanation">
-          <div className="p">
-          <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
-          What do you want to learn or do more of at work? <br />
-          </Malleable>
-          
-          <Malleable
-            id="explanation-1-inspect"
-            as="span"
-            isActive={isEdit}
-            edits={edits}
-          >
-            Technical skills<br />
-            Specifically in the fields of modern web architecture. I have been involved working in SaaS platform and I really find it interesting on how the web architecture works. <br />
-            Being involved in understanding the frontend frameworks like Next.js and React, cloud technologies, serverless computing and DNS would really be a good opportunity for me to dive in. <br />
-            Strengthening my technical expertise will enable me to contribute more effectively to projects and problem-solving initiatives.<br />
-            
-            Communication Skills <br />
-           I would also like to further improve my communication skills. <br />
-           It is crucial being a CSE, this includes relaying complex ideas effectively to the team and other stakeholders. <br />
-      
-          </Malleable>
-          <br />
-        </div>
-         <div className="p">
-          <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
-          Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. <br />
-          How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better? <br />
-          </Malleable>
-          
-          <Malleable
-            id="explanation-1-inspect"
-            as="span"
-            isActive={isEdit}
-            edits={edits}
-          >
-            In the customer support world, there will be scenarios where we face an issue which we are unfamiliar with. <br />
-            In these cases, when I encounter a customer seeking assistance with a build issue on a framework or technology that I'm unfamiliar with, <br />
-            I would approach the situation systematically to gather relevant information and eventually find out a solution for troubleshooting. <br />
-            Firstly, I would conduct initial research to gain an understanding of the framework or technology.  <br />
-            I will look for documentations or help file that could provide insights on the specific issue, or I would read through some forums or community resources. <br />
-            I will also look for tutorials or guides related that could add to my knowledge. <br />
-            Next step would be asking the customer to provide me more context of the issue like a detailed information about the specific build issue they are encountering.  <br />
-            I will ask them to provide any evidence of the issue which would help me replicate it. I would request for any error messages or log issues, <br />
-            if there were code recent code changes in their development environment, if there are dependencies in other configurations and any other third-party vendors.  <br />
-            After getting the information by the customer, I would try to explore potential solutions with the issue.<br /> 
-            This might involve troubleshooting common issues, experimenting with different configurations or even seeking assistance on any third-party vendors that would have greater knowledge.  <br />
-          
-      
-          </Malleable>
-          <br />
-        </div>
+        
         <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
           When people visit this site, the response always comes instantly from
           their{' '}
