@@ -191,7 +191,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
   return (
     <>
       <Malleable id="title" as="h1" isActive={isEdit} edits={edits}>
-        My Static Site
+        CSE Skills Assessment
       </Malleable>
       <div className="features">
         <div className="feature">
