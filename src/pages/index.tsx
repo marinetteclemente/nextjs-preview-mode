@@ -302,14 +302,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <br />
         </div>
         
-        <div className="explanation">
-        <div className="p">
-        <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
+        <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
           What do you want to learn or do more of at work? <br />
         </Malleable>
         
           <Malleable
-            id="explanation-1-inspect"
+            id="explanation-2-inspect"
             as="span"
             isActive={isEdit}
             edits={edits}
@@ -325,7 +323,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
       
           </Malleable>
           <br />
-         </div>
       
         </Malleable>
         <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
