@@ -304,6 +304,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         
         <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
           What do you want to learn or do more of at work? <br />
+        </Malleable>
+        
           <Malleable
             id="explanation-1-inspect"
             as="span"
