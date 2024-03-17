@@ -302,6 +302,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <br />
         </div>
         
+        <div className="explanation">
+        <div className="p">
         <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
           What do you want to learn or do more of at work? <br />
         </Malleable>
@@ -323,7 +325,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
       
           </Malleable>
           <br />
-          
+         </div>
+      
         </Malleable>
         <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
           Unlike traditional static solutions, however, you can generate
