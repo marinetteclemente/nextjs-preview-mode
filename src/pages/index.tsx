@@ -274,14 +274,16 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
       </Malleable>
       <div className="explanation">
         <div className="p">
+          <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
+          From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. <br />
+          </Malleable>
+          
           <Malleable
             id="explanation-1-inspect"
             as="span"
             isActive={isEdit}
             edits={edits}
           >
-            From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. <br />
-
             Five most favourite support tasks:<br />
             1. Write and maintain support articles and docs pages: Maintaining the support articles and docs pages is crucial for the customer support role as it promotes three important things, efficiency, sharing of knowledge, and continuous improvement.<br /> 
             2. Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub: Improve my technical proficiency and problem-solving skills<br />
