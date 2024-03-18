@@ -363,21 +363,20 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             edits={edits}
           >
             Hi Customer,<br/>
-            <br/>
+            <br />
             I completely understand your frustration and I appreciate your patience as we work through this issue together.<br />
-            <br/>
+            <br />
             I understand you would like to resolve the issue as quickly as possible, <br />
             but I would need more information to help me pinpoint the root cause of the problem and provide you with the most effective solution. <br/>
-            <br/>
-            If you could kindly share any error messages, logs, or additional details about the problem, it would greatly assist me and the team it would greatly assist us to find a solution.<br \/>
-            <br/>
+            <br />
+            If you could kindly share any error messages, logs, or additional details about the problem, it would greatly assist me and the team it would greatly assist us to find a solution.<br/>
+            <br />
             I’m also happy to jump on a call so we can address the issue more directly<br/>
-           <br/>
-          <br/>
+            <br />
             Best regards,<br/>
             Marinette<br/>
           </Malleable>
-          <br />
+          <br/>
             
         </Malleable>
         <br/>
