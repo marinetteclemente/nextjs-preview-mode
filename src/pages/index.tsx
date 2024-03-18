@@ -442,7 +442,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
            We can specify rules in the robots.txt file to disallow indexing of your entire website or specific pages.  <br/>
             <br />
             2.	Meta Tags: Another approach is to add meta tags to your website's HTML code.<br/>
-            To do this, we need to include the "noindex" meta tag in the <head> section of your HTML code. <br/>
+            To do this, we need to include the "noindex" meta tag in the head section of your HTML code. <br/>
             IThis tag requests search engine bots not to index the content of the page. <br/>
             <br />
             If you would like us to proceed with implementing these changes for you, please let us know, and we'll be happy to assist further.<br/>
