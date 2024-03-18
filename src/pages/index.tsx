@@ -301,9 +301,9 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
         </div>
-         <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
-          When people visit this site, the response always comes instantly from
-          their{' '}
+          <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
+          What do you want to learn or do more of at work? <br />
+           </Malleable>
           <a
             target="_blank"
             rel="noopener"
