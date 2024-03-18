@@ -288,6 +288,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
             >
+             <br />
             Technical skills<br />
             Specifically in the fields of modern web architecture. I have been involved working in SaaS platform and I really find it interesting on how the web architecture works. <br />
             Being involved in understanding the frontend frameworks like Next.js and React, cloud technologies, serverless computing and DNS would really be a good opportunity for me to dive in. <br />
@@ -309,9 +310,11 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
+            <br />
             In a previous support role, I encountered a challenge where a specific customer cannot integrate their data system into our existing API key access <br />
             When investigated the issue, I discovered that the problem was related to absence of any API credentials on the customer's end. <br />
             Unfortunately, the customer's platform was a bit old and don't have the capability to connect through API access. <br />
+            <br />
             To address the issue, I have started planning out the next steps through: <br />
                 * Internal collaboration: I have explained the situation to our system engineers and asked for their recommendations on any options we can provide to the customer.<br />
                   After them further investigating other methodologies for the customer, they have suggested an SFTP folder transfer of data instead of API connection. <br />
@@ -319,6 +322,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
                 * Resource allocation: After the technical kick off and confirming the possibility of the solution, I have coordinated the business sign off to our Customer Relations manager and our CTO to confirm the necessary work required for this request.  <br />
                 * Implementation: After defining the objectives and the resource required, I have initiated the proposal to the customer, asking for their final sign off to push through the project. <br/>
                 * Testing: After official sign off from the customer, and actual implementation by system engineers, we were able to pull the data from their SFTP folder and successfully built a standard ingestion that will be a repeatable process for the customer. <br />
+          <br />
           The success of the solution was determined by the on-going transfer of data that was reusable by other customers who doesn't have available API connection. <br/>
           </Malleable>
         <br /> 
@@ -334,17 +338,22 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
+            <br />
             In the customer support world, there will be scenarios where we face an issue which we are unfamiliar with. <br />
             In these cases, when I encounter a customer seeking assistance with a build issue on a framework or technology that I'm unfamiliar with, <br />
             I would approach the situation systematically to gather relevant information and eventually find out a solution for troubleshooting. <br />
+            <br />
             Firstly, I would conduct initial research to gain an understanding of the framework or technology.  <br />
             I will look for documentations or help file that could provide insights on the specific issue, or I would read through some forums or community resources. <br />
             I will also look for tutorials or guides related that could add to my knowledge. <br />
+           <br />
             Next step would be asking the customer to provide me more context of the issue like a detailed information about the specific build issue they are encountering.  <br />
             I will ask them to provide any evidence of the issue which would help me replicate it. I would request for any error messages or log issues, <br />
             if there were code recent code changes in their development environment, if there are dependencies in other configurations and any other third-party vendors.  <br />
+            <br />
             After getting the information by the customer, I would try to explore potential solutions with the issue.<br /> 
             This might involve troubleshooting common issues, experimenting with different configurations or even seeking assistance on any third-party vendors that would have greater knowledge.  <br />
+            <br />
             Lastly, resolve or not, I will document it with my findings, steps taken, and any progress made. <br/>
             This way, if the issue re-occur for another customer, there will be a documentation where other CS team members could refer to easily to resolve the issue. <br />
           </Malleable>
@@ -375,6 +384,40 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             <br />
             Best regards,<br/>
             Marinette<br/>
+          </Malleable>
+          <br/>
+
+            <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
+          6. 7.	A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?"<br />
+          Please write a reply to the customer. <br />
+          Feel free to add any information about your decision making process after the reply.<br/>
+          </Malleable>
+          
+            <Malleable
+            id="explanation-6-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            Hi Customer,<br/>
+            <br />
+            Thank you so much for reaching out to us with your question about setting up a redirect from the "/blog" path to "https://example.com."<br />
+            We appreciate your patience and understanding as we assist you with this.<br />
+            <br />
+           To be completely transparent, setting up a redirect from the "/blog" path is not something I have personal experience with.  <br />
+           However, I want to ensure you receive the best assistance as possible, so I'll be redirecting your inquiry to one of our Customer Support Engineers, <br/>
+           who has a solid understanding of configuring the set up for redirects. <br/>
+            <br />
+            My colleague XXX will be able to provide you with expert guidance and support to help you achieve your expected outcome. <br/>
+            They will reach out to you shortly to provide the support you will need. If you have any further questions or concerns in the meantime, please don't hesitate to reach out to us. <br/>
+            <br />
+            Thank you for your understanding and patience as we work to resolve your query.<br/>
+            <br />
+            Best regards,<br/>
+            Marinette<br/>
+               <br />
+               <br />
+          My approach in making the decision to redirect the inquiry to another experienced Customer Success Engineer is to achieve customer-centric approach in terms of unexplored technologies or framework. Maintaining transparency, prioritising the urgency and the efficiency of resolving the customer's issue should be the top priority. This decision aligns with the principle of ensuring that customers receive the most accurate and relevant assistance from the appropriate resources within the support team.<br/>
           </Malleable>
           <br/>
             
