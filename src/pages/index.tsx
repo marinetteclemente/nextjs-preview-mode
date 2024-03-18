@@ -350,7 +350,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
             
-            <Malleable as="h5" id="title-5" isActive={isEdit} edits={edits}>
+            <Malleable as="h4" id="title-5" isActive={isEdit} edits={edits}>
           6. The customer from question 5 replies to your response with the below:  <br />
           “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”  <br />
           The customer from question 5 replies to your response with the below: <br/>
