@@ -255,7 +255,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
       <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
       1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. <br />
       </Malleable>
-          
           <Malleable
             id="explanation-1-inspect"
             as="span"
@@ -279,7 +278,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
           2. What do you want to learn or do more of at work? <br/>
           </Malleable>
-            
             <Malleable
             id="explanation-2-inspect"
             as="span"
@@ -376,9 +374,9 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
  
-          </Malleable>
-          <br />
-        </div>
+      </Malleable>
+      <br />
+    </div>
           
         <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
           Unlike traditional static solutions, however, you can generate
