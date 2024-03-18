@@ -421,7 +421,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <br/>
 
             <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
-              <br/>
          8.	A customer is creating a site and would like their project not to be indexed by search engines. <br />
           Please write a reply to the customer. <br />
           Feel free to add any information about your decision making process after the reply.<br/>
@@ -438,7 +437,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             Thank you for reaching out with your request regarding your website project. <br />
             If you would like to keep your project from showing up on search engines and remains private, we can implement a couple of measures:<br />
             <br />
-          1. Robots.txt File: We can create and configure a "robots.txt" file for your website. <br />
+            1. Robots.txt File: We can create and configure a "robots.txt" file for your website. <br />
            This file instructs search engines on which pages or directories should not be indexed.  <br/>
            We can specify rules in the robots.txt file to disallow indexing of your entire website or specific pages.  <br/>
             <br />
@@ -456,7 +455,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <br/>
         
               <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
-              <br/>
          9.	What do you think is one of the most common problems which customers ask Vercel for help with? <br />
           How would you help customers to overcome common problems, short-term and long-term? <br />
           </Malleable>
@@ -477,8 +475,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             <br />
           </Malleable>
           <br/>
-               <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
-              <br/>
+               
+              <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
          10. How could we improve or alter this familiarisation exercise? <br />
            <br />
           </Malleable>
@@ -497,6 +495,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             <br />
           </Malleable>
           <br/>
+              
         </Malleable>
         <br/>
     </div>
