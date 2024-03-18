@@ -388,7 +388,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <br/>
 
             <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
-          6. 7.	A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?"<br />
+         7.	A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?"<br />
           Please write a reply to the customer. <br />
           Feel free to add any information about your decision making process after the reply.<br/>
           </Malleable>
@@ -416,11 +416,87 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             Best regards,<br/>
             Marinette<br/>
                <br />
-               <br />
           My approach in making the decision to redirect the inquiry to another experienced Customer Success Engineer is to achieve customer-centric approach in terms of unexplored technologies or framework. Maintaining transparency, prioritising the urgency and the efficiency of resolving the customer's issue should be the top priority. This decision aligns with the principle of ensuring that customers receive the most accurate and relevant assistance from the appropriate resources within the support team.<br/>
           </Malleable>
           <br/>
-            
+
+            <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
+              <br/>
+         8.	A customer is creating a site and would like their project not to be indexed by search engines. <br />
+          Please write a reply to the customer. <br />
+          Feel free to add any information about your decision making process after the reply.<br/>
+          </Malleable>
+          
+            <Malleable
+            id="explanation-6-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            Hi Customer,<br/>
+            <br />
+            Thank you for reaching out with your request regarding your website project. <br />
+            If you would like to keep your project from showing up on search engines and remains private, we can implement a couple of measures:<br />
+            <br />
+          1. Robots.txt File: We can create and configure a "robots.txt" file for your website. <br />
+           This file instructs search engines on which pages or directories should not be indexed.  <br/>
+           We can specify rules in the robots.txt file to disallow indexing of your entire website or specific pages.  <br/>
+            <br />
+            2.	Meta Tags: Another approach is to add meta tags to your website's HTML code.<br/>
+            To do this, we need to include the "noindex" meta tag in the <head> section of your HTML code. <br/>
+            IThis tag requests search engine bots not to index the content of the page. <br/>
+            <br />
+            If you would like us to proceed with implementing these changes for you, please let us know, and we'll be happy to assist further.<br/>
+            <br />
+            Best regards,<br/>
+            Marinette<br/>
+               <br />
+          Through this approach we provide clear guidance to the customer regarding their request to prevent search engines from indexing their website. The two common approaches using a robots.txt file or adding meta tags to the HTML code can assist with making the project private to the search engines – either through specific pages or entire website. Robot.txt file is to be used if the customer would like to control the indexing behavior of the search engines for entire sections of the website, while meta tag to be used if the customer is after preventing specific pages from being indexed by search engines while allowing other pages on the site to be indexed. Through this approach we allow the customer to implement a tailored solution based on their preferences.<br/>
+          </Malleable>
+          <br/>
+        
+              <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
+              <br/>
+         9.	What do you think is one of the most common problems which customers ask Vercel for help with? <br />
+          How would you help customers to overcome common problems, short-term and long-term? <br />
+          </Malleable>
+          
+            <Malleable
+            id="explanation-6-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            <br />
+            One of the most common problems that customers may ask Vercel for help with is related to deployment issues or configuration errors when deploying their applications to the Vercel platform.  <br />
+            These issues could range from build failures, deployment errors, custom domain setup problems, understanding technical documentations and needing help and support.<br />
+            <br />
+            Trouble Deploying Websites: Some customers may have difficulty uploading their websites or apps to Vercel due to errors during the process.<br />
+            Setting Up Custom Domains: Configuring custom domain names for their websites can be confusing for customers, leading to issues with getting their domain to work properly.<br/>
+            Getting Help and Support: Some customers may have trouble finding the help they need or understanding technical documentation, leading to frustration when trying to troubleshoot issues. <br/>
+            <br />
+          </Malleable>
+          <br/>
+               <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
+              <br/>
+         10. How could we improve or alter this familiarisation exercise? <br />
+           <br />
+          </Malleable>
+          
+            <Malleable
+            id="explanation-6-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            <br />
+            Provide additional resources for each task, may include but not limited to links to relevant documentation, guides, and tutorials. With more information, we will have what we need to complete the exercise effectively. <br />
+            <br />
+            Offer sample solutions or templates to reference, especially for tasks involving technical challenges or unfamiliar technologies (like question number 4 on Edge Network)<br/>
+            These additional information will serve as a helpful starting points and provide additional guidance <br/>
+            <br />
+          </Malleable>
+          <br/>
         </Malleable>
         <br/>
     </div>
