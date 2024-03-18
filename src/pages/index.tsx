@@ -301,18 +301,31 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
         </div>
+        
+        <div className="explanation">
+        <div className="p">
           <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
-          What do you want to learn or do more of at work? <br />
+          What do you want to learn or do more of at work? <br/>
            </Malleable>
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://vercel.com/docs/concepts/edge-network/overview"
+          <Malleable
+            id="explanation-2-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
           >
-            nearest location
-          </a>
-          .
+            Technical skills<br />
+            Specifically in the fields of modern web architecture. I have been involved working in SaaS platform and I really find it interesting on how the web architecture works. <br />
+            Being involved in understanding the frontend frameworks like Next.js and React, cloud technologies, serverless computing and DNS would really be a good opportunity for me to dive in. <br />
+            Strengthening my technical expertise will enable me to contribute more effectively to projects and problem-solving initiatives.<br />
+            
+            Communication Skills <br />
+           I would also like to further improve my communication skills. <br />
+           It is crucial being a CSE, this includes relaying complex ideas effectively to the team and other stakeholders. <br />
+          
         </Malleable>
+        <br />
+      </div>
+          
         <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
           Unlike traditional static solutions, however, you can generate
           previews of edits that you can share with anyone you choose. To try it
