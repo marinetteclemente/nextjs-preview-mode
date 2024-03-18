@@ -262,14 +262,17 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
+            <br />
             Five most favourite support tasks:<br />
+            <br />
             1. Write and maintain support articles and docs pages: Maintaining the support articles and docs pages is crucial for the customer support role as it promotes three important things, efficiency, sharing of knowledge, and continuous improvement.<br /> 
             2. Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub: Improve my technical proficiency and problem-solving skills<br />
             3.  Help train and onboard new support teammates: It is a two-way kind of learning, not only the new onboarded teammates are benefitting but also the person who is doing the training as it enhances many skills <br />
             4. Work with the product team to develop a new feature based on feedback from customers: Enhance skills such as collaboration, business requirement analysis, different project management methodologies<br />
             5. Analyze hundreds of support tickets to spot trends the product team can use: Enhance understanding in various customer support requests<br />
-            
+            <br />
             Five least favourite support tasks: <br />
+            <br />
             1. Manage a support team: Focus on increasing my knowledge in the technicalities <br />
             2. Respond to 50+ support requests via email every day: Having to respond quickly could be overwhelming<br />
             3. Dig through logs to troubleshoot a customer's broken project: Can be time-consuming and challenging. Most of the time it requires high-level technical expertise<br />
@@ -289,13 +292,39 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             Specifically in the fields of modern web architecture. I have been involved working in SaaS platform and I really find it interesting on how the web architecture works. <br />
             Being involved in understanding the frontend frameworks like Next.js and React, cloud technologies, serverless computing and DNS would really be a good opportunity for me to dive in. <br />
             Strengthening my technical expertise will enable me to contribute more effectively to projects and problem-solving initiatives.<br />
-            
+            <br />
             Communication Skills <br />
            I would also like to further improve my communication skills. <br />
            It is crucial being a CSE, this includes relaying complex ideas effectively to the team and other stakeholders. <br />
         </Malleable>
         <br />
- 
+
+            <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
+          3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role).<br/>
+          How did you determine that your solution was successful? <br />
+            </Malleable>
+            <Malleable
+            id="explanation-3-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            In a previous support role, I encountered a challenge where a specific customer cannot integrate their data system into our existing API key access <br />
+            When investigated the issue, I discovered that the problem was related to absence of any API credentials on the customer's end. <br />
+            Unfortunately, the customer's platform was a bit old and don't have the capability to connect through API access. <br />
+            To address the issue, I have started planning out the next steps through: <br />
+                * Internal collaboration: I have explained the situation to our system engineers and asked for their recommendations on any options we can provide to the customer.<br />
+                  After them further investigating other methodologies for the customer, they have suggested an SFTP folder transfer of data instead of API connection. <br />
+                * Technical Requirements gathering: I have set up a meeting with our customer's tech people along with our tech experts to discuss the potential technical requirements to pull off the requirement.  <br />
+                * Resource allocation: After the technical kick off and confirming the possibility of the solution, I have coordinated the business sign off to our Customer Relations manager and our CTO to confirm the necessary work required for this request.  <br />
+                * Implementation: After defining the objectives and the resource required, I have initiated the proposal to the customer, asking for their final sign off to push through the project. <br/>
+                * Testing: After official sign off from the customer, and actual implementation by system engineers, we were able to pull the data from their SFTP folder and successfully built a standard ingestion that will be a repeatable process for the customer. <br />
+          The success of the solution was determined by the on-going transfer of data that was reusable by other customers who doesn't have available API connection. <br/>
+          </Malleable>
+        <br />  
+
+
+            
         </Malleable>
         <br/>
     </div>
