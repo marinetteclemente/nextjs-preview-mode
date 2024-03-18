@@ -249,34 +249,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
         </div>
       </div>
+      
+  <div className="explanation">
+    <div className="p">
       <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
-        This demonstrates a static website generated using{' '}
-        <a target="_blank" rel="noopener" href="https://nextjs.org">
-          Next.js'
-        </a>{' '}
-        new{' '}
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://nextjs.org/docs/basic-features/data-fetching/get-static-props"
-        >
-          Static Site Generation (SSG)
-        </a>
-        . View the source on{' '}
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://github.com/vercel/preview-mode-demo"
-        >
-          GitHub
-        </a>
-        .
+      1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. <br />
       </Malleable>
-      <div className="explanation">
-        <div className="p">
-          <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
-          From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each. <br />
-          </Malleable>
           
           <Malleable
             id="explanation-1-inspect"
@@ -299,7 +277,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             5. Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems: Can be challenging to balance the needs of different users <br />
 
           <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
-          What do you want to learn or do more of at work? <br/>
+          2. What do you want to learn or do more of at work? <br/>
           </Malleable>
             
             <Malleable
@@ -318,6 +296,86 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
            It is crucial being a CSE, this includes relaying complex ideas effectively to the team and other stakeholders. <br />
         </Malleable>
         <br />
+            
+        <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
+          3. 3.	Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role).<br/>
+          How did you determine that your solution was successful? <br />
+          </Malleable>
+          
+          <Malleable
+            id="explanation-3-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            In a previous support role, I encountered a challenge where a specific customer cannot integrate their data system into our existing API key access <br />
+            When investigated the issue, I discovered that the problem was related to absence of any API credentials on the customer's end. <br />
+            Unfortunately, the customer's platform was a bit old and don't have the capability to connect through API access. <br />
+            To address the issue, I have started planning out the next steps through: <br />
+                * Internal collaboration: I have explained the situation to our system engineers and asked for their recommendations on any options we can provide to the customer.<br />
+                  After them further investigating other methodologies for the customer, they have suggested an SFTP folder transfer of data instead of API connection. <br />
+                * Technical Requirements gathering: I have set up a meeting with our customer's tech people along with our tech experts to discuss the potential technical requirements to pull off the requirement.  <br />
+                * Resource allocation: After the technical kick off and confirming the possibility of the solution, I have coordinated the business sign off to our Customer Relations manager and our CTO to confirm the necessary work required for this request.  <br />
+                * Implementation: After defining the objectives and the resource required, I have initiated the proposal to the customer, asking for their final sign off to push through the project. <br/>
+                * Testing: After official sign off from the customer, and actual implementation by system engineers, we were able to pull the data from their SFTP folder and successfully built a standard ingestion that will be a repeatable process for the customer. <br />
+          The success of the solution was determined by the on-going transfer of data that was reusable by other customers who doesn't have available API connection. <br/>
+            
+          <br />
+          <Malleable as="h5" id="title-5" isActive={isEdit} edits={edits}>
+          5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. <br />
+          How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better? <br />
+          </Malleable>
+          
+          <Malleable
+            id="explanation-5-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            In the customer support world, there will be scenarios where we face an issue which we are unfamiliar with. <br />
+            In these cases, when I encounter a customer seeking assistance with a build issue on a framework or technology that I'm unfamiliar with, <br />
+            I would approach the situation systematically to gather relevant information and eventually find out a solution for troubleshooting. <br />
+            Firstly, I would conduct initial research to gain an understanding of the framework or technology.  <br />
+            I will look for documentations or help file that could provide insights on the specific issue, or I would read through some forums or community resources. <br />
+            I will also look for tutorials or guides related that could add to my knowledge. <br />
+            Next step would be asking the customer to provide me more context of the issue like a detailed information about the specific build issue they are encountering.  <br />
+            I will ask them to provide any evidence of the issue which would help me replicate it. I would request for any error messages or log issues, <br />
+            if there were code recent code changes in their development environment, if there are dependencies in other configurations and any other third-party vendors.  <br />
+            After getting the information by the customer, I would try to explore potential solutions with the issue.<br /> 
+            This might involve troubleshooting common issues, experimenting with different configurations or even seeking assistance on any third-party vendors that would have greater knowledge.  <br />
+            Lastly, resolve or not, I will document it with my findings, steps taken, and any progress made. <br/>
+            This way, if the issue re-occur for another customer, there will be a documentation where other CS team members could refer to easily to resolve the issue. <br />
+          </Malleable>
+          <br />
+          
+          <Malleable as="h6" id="title-6" isActive={isEdit} edits={edits}>
+          6. The customer from question 5 replies to your response with the below:  <br />
+          “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”  <br />
+          The customer from question 5 replies to your response with the below: <br/>
+          </Malleable>
+          <Malleable
+            id="explanation-6-inspect"
+            as="span"
+            isActive={isEdit}
+            edits={edits}
+          >
+            Hi Customer,<br/>
+            <br/>
+            I completely understand your frustration and I appreciate your patience as we work through this issue together.<br />
+            <br/>
+            I understand you would like to resolve the issue as quickly as possible, <br />
+            but I would need more information to help me pinpoint the root cause of the problem and provide you with the most effective solution. <br/>
+            <br/>
+            If you could kindly share any error messages, logs, or additional details about the problem, it would greatly assist me and the team it would greatly assist us to find a solution.<br \/>
+            <br/>
+            I’m also happy to jump on a call so we can address the issue more directly<br/>
+           <br/>
+          <br/>
+            Best regards,<br/>
+            Marinette<br/>
+          </Malleable>
+          <br />
+ 
           </Malleable>
           <br />
         </div>
