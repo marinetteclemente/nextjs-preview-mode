@@ -279,7 +279,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             4. Work with 3rd party partners to track down a tricky situation for a joint customer: the lack of direct control over external parties<br />
             5. Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems: Can be challenging to balance the needs of different users <br />
 
-          <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
+          <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
           2. What do you want to learn or do more of at work? <br/>
           </Malleable>
             <Malleable
@@ -299,7 +299,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         </Malleable>
         <br />
 
-            <Malleable as="h4" id="title-4" isActive={isEdit} edits={edits}>
+            <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
           3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role).<br/>
           How did you determine that your solution was successful? <br />
             </Malleable>
@@ -323,7 +323,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
         <br /> 
              
-            <Malleable as="h4" id="title-4" isActive={isEdit} edits={edits}>
+            <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
           5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. <br />
           How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better? <br />
           </Malleable>
@@ -350,7 +350,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
             
-            <Malleable as="h4" id="title-5" isActive={isEdit} edits={edits}>
+            <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
           6. The customer from question 5 replies to your response with the below:  <br />
           “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”  <br />
           The customer from question 5 replies to your response with the below: <br/>
