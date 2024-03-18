@@ -299,7 +299,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         </Malleable>
         <br />
 
-            <Malleable as="h3" id="title-3" isActive={isEdit} edits={edits}>
+            <Malleable as="h4" id="title-4" isActive={isEdit} edits={edits}>
           3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role).<br/>
           How did you determine that your solution was successful? <br />
             </Malleable>
@@ -322,13 +322,14 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           The success of the solution was determined by the on-going transfer of data that was reusable by other customers who doesn't have available API connection. <br/>
           </Malleable>
         <br /> 
-             <Malleable as="h5" id="title-5" isActive={isEdit} edits={edits}>
+             
+            <Malleable as="h4" id="title-4" isActive={isEdit} edits={edits}>
           5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. <br />
           How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better? <br />
           </Malleable>
           
           <Malleable
-            id="explanation-5-inspect"
+            id="explanation-4-inspect"
             as="span"
             isActive={isEdit}
             edits={edits}
@@ -349,7 +350,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </Malleable>
           <br />
             
-            <Malleable as="h6" id="title-6" isActive={isEdit} edits={edits}>
+            <Malleable as="h5" id="title-5" isActive={isEdit} edits={edits}>
           6. The customer from question 5 replies to your response with the below:  <br />
           “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”  <br />
           The customer from question 5 replies to your response with the below: <br/>
