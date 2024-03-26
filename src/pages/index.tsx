@@ -227,7 +227,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            xxxxxx
+            
           </Malleable>
         </div>
         <div className="feature">
@@ -237,7 +237,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            💌
+            🗓
           </Malleable>
           <Malleable
             id="feature-3-text"
@@ -245,7 +245,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            xxxxxx
+            9th March 2024
           </Malleable>
         </div>
       </div>
