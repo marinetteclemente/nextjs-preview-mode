@@ -201,7 +201,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            ⚡
+          🌸
           </Malleable>
           <Malleable
             id="feature-1-text"
@@ -209,7 +209,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Blazing fast
+            Marinette Clemente
           </Malleable>
         </div>
         <div className="feature">
@@ -219,7 +219,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            📡
+            ✨
           </Malleable>
           <Malleable
             id="feature-2-text"
@@ -227,7 +227,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Always available
+            xxxxxx
           </Malleable>
         </div>
         <div className="feature">
@@ -237,7 +237,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            🏎
+            💌
           </Malleable>
           <Malleable
             id="feature-3-text"
@@ -245,7 +245,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Lighthouse 100
+            xxxxxx
           </Malleable>
         </div>
       </div>
@@ -487,7 +487,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            <br />
             Provide additional resources for each task, may include but not limited to links to relevant documentation, guides, and tutorials. With more information, we will have what we need to complete the exercise effectively. <br />
             <br />
             Offer sample solutions or templates to reference, especially for tasks involving technical challenges or unfamiliar technologies (like question number 4 on Edge Network)<br/>
@@ -501,23 +500,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
     </div>
           
         <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
-          Unlike traditional static solutions, however, you can generate
-          previews of edits that you can share with anyone you choose. To try it
-          out, click the edit icon on the bottom right and edit the content.
-          When you're done, click the share icon on the bottom right to generate
-          a shareable preview URL.
         </Malleable>
         <Malleable id="explanation-4" isActive={isEdit} edits={edits}>
-          SSG and Preview Mode make Next.js the most optimal framework to
-          integrate into your Headless CMS workflow. Learn more about the
-          preview mode on{' '}
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://nextjs.org/docs/advanced-features/preview-mode"
-          >
-            our documentation.
-          </a>
         </Malleable>
       </div>
     </>
