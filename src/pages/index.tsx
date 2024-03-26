@@ -290,13 +290,14 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             >
              <br />
             Technical skills<br />
-            Specifically in the fields of modern web architecture. I have been involved working in SaaS platform and I really find it interesting on how the web architecture works. <br />
-            Being involved in understanding the frontend frameworks like Next.js and React, cloud technologies, serverless computing and DNS would really be a good opportunity for me to dive in. <br />
+            1. In the fields of modern web architecture, being involved in understanding the frontend frameworks like Next.js and React, cloud technologies, serverless computing and DNS would really be a good opportunity for me to dive in. <br />
+            I have been involved working in SaaS platform and I really find it interesting on how the web architecture works. <br />
             Strengthening my technical expertise will enable me to contribute more effectively to projects and problem-solving initiatives.<br />
             <br />
             Communication Skills <br />
            I would also like to further improve my communication skills. <br />
-           It is crucial being a CSE, this includes relaying complex ideas effectively to the team and other stakeholders. <br />
+           Continuous improvement in terms of communicating to different stakeholders is one of the crucial part of being a CSE.<br/>
+           This includes relaying complex ideas effectively to the team and other stakeholders. <br />
         </Malleable>
         <br />
 
@@ -311,17 +312,17 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             edits={edits}
           >
             <br />
-            In a previous support role, I encountered a challenge where a specific customer cannot integrate their data system into our existing API key access <br />
+            In a previous support role, I encountered a challenge where a specific customer cannot integrate their data system into our platform <br />
             When investigated the issue, I discovered that the problem was related to absence of any API credentials on the customer's end. <br />
-            Unfortunately, the customer's platform was a bit old and don't have the capability to connect through API access. <br />
+            The customer's platform was outdated and lacked the capability to establish API connections.<br />
             <br />
             To address the issue, I have started planning out the next steps through: <br />
                 * Internal collaboration: I have explained the situation to our system engineers and asked for their recommendations on any options we can provide to the customer.<br />
-                  After them further investigating other methodologies for the customer, they have suggested an SFTP folder transfer of data instead of API connection. <br />
-                * Technical Requirements gathering: I have set up a meeting with our customer's tech people along with our tech experts to discuss the potential technical requirements to pull off the requirement.  <br />
-                * Resource allocation: After the technical kick off and confirming the possibility of the solution, I have coordinated the business sign off to our Customer Relations manager and our CTO to confirm the necessary work required for this request.  <br />
+                  After them further investigating other methodologies for the customer, they have suggested an SFTP transfer of data instead of API connection. <br />
+                * Technical Requirements gathering: I have set up a meeting with our customer's tech people along with our tech experts to discuss the potential technical requirements to pull off this option.  <br />
+                * Resource allocation: After the technical kick off and confirming the possibility of the solution, I have coordinated this to be signed off by our Customer Relations manager and our CTO to confirm the necessary work required for this request.  <br />
                 * Implementation: After defining the objectives and the resource required, I have initiated the proposal to the customer, asking for their final sign off to push through the project. <br/>
-                * Testing: After official sign off from the customer, and actual implementation by system engineers, we were able to pull the data from their SFTP folder and successfully built a standard ingestion that will be a repeatable process for the customer. <br />
+                * Testing: After official sign off from the customer, and actual implementation by system engineers, we were able to pull the data throough SFTP transfer and successfully built a standard ingestion that will be a repeatable process for the customer. <br />
           <br />
           The success of the solution was determined by the on-going transfer of data that was reusable by other customers who doesn't have available API connection. <br/>
           </Malleable>
@@ -344,12 +345,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             I would approach the situation systematically to gather relevant information and eventually find out a solution for troubleshooting. <br />
             <br />
             Firstly, I would conduct initial research to gain an understanding of the framework or technology.  <br />
-            I will look for documentations or help file that could provide insights on the specific issue, or I would read through some forums or community resources. <br />
-            I will also look for tutorials or guides related that could add to my knowledge. <br />
+            I will look for documentations or help file that could provide insights on the specific issue, or I would read through some forums or community resources that could provide further learnings. <br />
+            Tutorials or guides related will also be useful that could add to my knowledge. <br />
            <br />
             Next step would be asking the customer to provide me more context of the issue like a detailed information about the specific build issue they are encountering.  <br />
             I will ask them to provide any evidence of the issue which would help me replicate it. I would request for any error messages or log issues, <br />
-            if there were code recent code changes in their development environment, if there are dependencies in other configurations and any other third-party vendors.  <br />
+            if there were recent code changes in their development environment, if there are dependencies in other configurations or any other third-party vendors.  <br />
             <br />
             After getting the information by the customer, I would try to explore potential solutions with the issue.<br /> 
             This might involve troubleshooting common issues, experimenting with different configurations or even seeking assistance on any third-party vendors that would have greater knowledge.  <br />
@@ -378,7 +379,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             I understand you would like to resolve the issue as quickly as possible, <br />
             but I would need more information to help me pinpoint the root cause of the problem and provide you with the most effective solution. <br/>
             <br />
-            If you could kindly share any error messages, logs, or additional details about the problem, it would greatly assist me and the team it would greatly assist us to find a solution.<br/>
+            If you could kindly share any error messages, logs, or additional details about the problem, it would greatly assist me and the team to find a solution.<br/>
             <br />
             I’m also happy to jump on a call so we can address the issue more directly<br/>
             <br />
@@ -416,7 +417,9 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             Best regards,<br/>
             Marinette<br/>
                <br />
-          My approach in making the decision to redirect the inquiry to another experienced Customer Success Engineer is to achieve customer-centric approach in terms of unexplored technologies or framework. Maintaining transparency, prioritising the urgency and the efficiency of resolving the customer's issue should be the top priority. This decision aligns with the principle of ensuring that customers receive the most accurate and relevant assistance from the appropriate resources within the support team.<br/>
+          My approach in making the decision to redirect the inquiry to another experienced Customer Success Engineer is to achieve customer-centric approach in terms of unexplored technologies or framework.<br/>
+          Maintaining transparency, prioritising the urgency and the efficiency of resolving the customer's issue should be the top priority. <br/>
+          This decision aligns with the principle of ensuring that customers receive the most accurate and relevant assistance from the appropriate resources within the support team.<br/>
           </Malleable>
           <br/>
 
@@ -450,7 +453,11 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             Best regards,<br/>
             Marinette<br/>
                <br />
-          Through this approach we provide clear guidance to the customer regarding their request to prevent search engines from indexing their website. The two common approaches using a robots.txt file or adding meta tags to the HTML code can assist with making the project private to the search engines – either through specific pages or entire website. Robot.txt file is to be used if the customer would like to control the indexing behavior of the search engines for entire sections of the website, while meta tag to be used if the customer is after preventing specific pages from being indexed by search engines while allowing other pages on the site to be indexed. Through this approach we allow the customer to implement a tailored solution based on their preferences.<br/>
+          Through this approach I provided clear a guidance to the customer regarding their request to prevent search engines from indexing their website.<br/>
+          The two common approaches using a robots.txt file or adding meta tags to the HTML code can assist with making the project private to the search engines – either through specific pages or entire website.<br/> 
+          Robot.txt file is to be used if the customer would like to control the indexing behavior of the search engines for entire sections of the website, <br/>
+          while meta tag to be used if the customer is after preventing specific pages from being indexed by search engines while allowing other pages on the site to be indexed. <br/>
+          Through this approach we allow the customer to implement a tailored solution based on their preferences.<br/>
           </Malleable>
           <br/>
         
